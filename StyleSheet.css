@@ -181,9 +181,16 @@ body
 {
     margin-top:50px;
 }
+.connect
+{
+	display:inline-block;
+	font-family:"handwritten";
+	font-size:25px;
+}
 /*** FACEBOOK ***/
 .fb 
 {
+   display:inline-block;
    margin-top:30px;
    margin-left:30px;
    margin-bottom:40px;
@@ -206,15 +213,16 @@ body
 /*** GITHUB ***/
 .git 
 {
+   display:inline-block;
    margin-top:30px;
-   margin-left:30px;
+   margin-left:20px;
    margin-bottom:40px;
 }
 .git a{
    background: url('./pics/octocat.png') no-repeat 0 0 transparent;
    border: none;
    text-decoration: none;
-   padding:12px 0 12px 50px;
+   padding:18px 0 12px 50px;
 }
 .git a:hover 
 {
