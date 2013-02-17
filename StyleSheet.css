@@ -226,10 +226,10 @@ body
 }
 .git a:hover 
 {
-	transition: background 2s;
-	-moz-transition: background 2s; /* Firefox 4 */
-	-webkit-transition: background 2s; /* Safari and Chrome */
-	-o-transition: background 2s; /* Opera */
+	transition: background 1s;
+	-moz-transition: background 1s; /* Firefox 4 */
+	-webkit-transition: background 1s; /* Safari and Chrome */
+	-o-transition: background 1s; /* Opera */
     background: url('./pics/octocat.png') no-repeat 0 15px transparent;
     color: #3B5998;
 }
