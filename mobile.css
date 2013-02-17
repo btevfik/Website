@@ -1,0 +1,22 @@
+/* CSS Document */
+
+.menu a:link {
+	padding:1px 4px;
+	-webkit-transition-property: background-color, color;
+    	-webkit-transition-duration: 600ms;
+    	/* you can control the acceleration curve here */
+    	-webkit-transition-timing-function: ease-in-out;
+    	border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+    	
+.menu li a {
+    -webkit-transition: margin 0.4s linear;
+    transition: margin 0.4s linear;
+    -moz-transition: margin 0.4s linear;
+}
+
+.menu li a:hover, a:active {
+    margin: -4px 0 0 0;
+    -webkit-transition: margin 0.1s linear;
+    transition: margin 0.1s linear;
+    -moz-transition: margin 0.1s linear;
+}

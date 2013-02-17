@@ -1,0 +1,261 @@
+/*** Baris Tevfik Style Sheet ***/
+
+@font-face {
+    font-family: 'sketch';
+    src: url('font/orange_juice.eot');
+    src: url('font/orange_juice.eot?#iefix') format('embedded-opentype'),
+         url('font/orange_juice.woff') format('woff'),
+         url('font.orange_juice.ttf') format('truetype'),
+         url('font/orange_juice.svg#orange_juiceregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {font-family: handwritten;src: url('./font/ampersand.eot') /* EOT file for IE */}
+@font-face {font-family: handwritten;src: url('./font/ampersand.ttf') format('truetype') /* TTF file for CSS3 browsers */}
+
+/*** BODY ***/
+body 
+{
+    background:url('./pics/paper.jpg') repeat;
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+}
+.container
+{
+   width:930px;
+   margin:0px auto;
+}
+/*** BANNER ***/
+.banner 
+{
+    text-align:center;
+    padding-top:20px;
+}
+.banner img
+{
+    border:none;
+}
+/*** MENU ***/
+.menu 
+{
+    font-size:30px;
+    line-height: normal; 
+    margin:0px 0px 50px 0px;
+    font-family: "handwritten";
+    float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+}
+.menu ul {
+    list-style-type: none;
+    position:relative;
+    left:50%;
+    margin:30px 35px 0 0;
+}
+.menu ul li {
+    float:left;
+    position:relative;
+    margin:10px;
+}
+.menu a {
+    float:left;
+    text-align:center;
+    white-space:nowrap;
+    color:#cf1d1d; 
+    text-decoration:none; 
+    padding:8px;
+    text-shadow: 0 2px 0  #ffffff;
+    font-weight: normal;
+}
+.menu a:active,a:hover {
+    color: #938d67;
+    background: none;
+}
+/*** IMAGES ***/
+.image {
+    float:none;
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+    padding: 10px;
+    box-shadow: 0px 1px 3px #434141;
+}
+/*** only rotate image ***/
+.rotateLeft
+{
+   transform:rotate(-2deg);
+  -ms-transform:rotate(-2deg); /* Internet Explorer */
+  -moz-transform:rotate(-2deg); /* Firefox */
+  -webkit-transform:rotate(-2deg); /* Safari and Chrome */
+  -o-transform:rotate(-2deg); /* Opera */
+}
+.rotateRight 
+{
+   transform:rotate(2deg);
+  -ms-transform:rotate(2deg); /* Internet Explorer */
+  -moz-transform:rotate(2deg); /* Firefox */
+  -webkit-transform:rotate(2deg); /* Safari and Chrome */
+  -o-transform:rotate(2deg); /* Opera */
+}
+/*** Rotaded and moved images for gallery***/
+.imageLeft
+{
+  transform:rotate(-2deg) translate(-100px,0px);
+  -ms-transform:rotate(-2deg) translate(-100px,0px); /* Internet Explorer */
+  -moz-transform:rotate(-2deg) translate(-100px,0px); /* Firefox */
+  -webkit-transform:rotate(-2deg) translate(-100px,0px); /* Safari and Chrome */
+  -o-transform:rotate(-2deg) translate(-100px,0px); /* Opera */
+}
+.imageRight 
+{
+  transform:rotate(2deg) translate(100px,0px);
+ -ms-transform:rotate(2deg) translate(100px,0px); /* Internet Explorer */
+ -moz-transform:rotate(2deg) translate(100px,0px); /* Firefox */ 
+ -webkit-transform:rotate(2deg) translate(100px,0px); /* Safari and Chrome */
+ -o-transform:rotate(2deg) translate(100px,0px); /* Opera */
+}
+/*** SuperKid image style ***/
+.superKid 
+{
+   transform:rotate(-2deg) translate(50px,-20px);
+  -ms-transform:rotate(-2deg) translate(50px,-20px); /* Internet Explorer */
+  -moz-transform:rotate(-2deg) translate(50px,-20px); /* Firefox */
+  -webkit-transform:rotate(-2deg) translate(50px,-20px); /* Safari and Chrome */
+  -o-transform:rotate(-2deg) translate(50px,-20px); /* Opera */
+}
+/*** MAIN ***/
+.main
+{
+    font-family: sans-serif;
+    line-height:1.5;
+    color: #282727;
+    font-size: 17px;
+    vertical-align: top;
+}
+.main a 
+{
+    text-decoration:none;
+}
+.main a:link 
+{
+    color:rgb(204,0,0);
+}
+.main a:hover
+{
+    color: #3B5998;
+}
+/*** TABLE ***/
+.tableStyle 
+{
+    width:930px;
+    border:none;
+    padding:0;
+    border-spacing:0px 0px; 
+    margin:0 auto;
+}
+/*** ABOUT ***/
+#aboutStyle
+{
+    width:325px;
+    border:none;
+    padding:0;
+    border-spacing:0px 0px; 
+}
+/*** PROJECT ***/
+#projectStyle{
+    width: 350px;
+    border: none;
+    padding: 0;
+    border-spacing: 0px 0px;
+    vertical-align: top;
+}
+/*** SEPERATOR ***/
+.seperator{
+    text-align:center;
+}
+/*** GALLERY ***/
+#galleryStyle 
+{
+    text-align:center;
+}
+#galleryStyle img 
+{
+    margin-top:50px;
+}
+/*** FACEBOOK ***/
+.fb 
+{
+   margin-top:30px;
+   margin-left:30px;
+   margin-bottom:40px;
+}
+.fb a{
+   background: url('./pics/f_logo.jpg') no-repeat 0 0 transparent;
+   border: none;
+   text-decoration: none;
+   padding:12px 0 12px 50px;
+}
+.fb a:hover 
+{
+	transition: background 1s;
+	-moz-transition: background 1s; /* Firefox 4 */
+	-webkit-transition: background 1s; /* Safari and Chrome */
+	-o-transition: background 1s; /* Opera */
+    background: url('./pics/f_logo.jpg') no-repeat 0 15px transparent;
+    color: #3B5998;
+}
+/*** GITHUB ***/
+.git 
+{
+   margin-top:30px;
+   margin-left:30px;
+   margin-bottom:40px;
+}
+.git a{
+   background: url('./pics/octocat.png') no-repeat 0 0 transparent;
+   border: none;
+   text-decoration: none;
+   padding:12px 0 12px 50px;
+}
+.git a:hover 
+{
+	transition: background 2s;
+	-moz-transition: background 2s; /* Firefox 4 */
+	-webkit-transition: background 2s; /* Safari and Chrome */
+	-o-transition: background 2s; /* Opera */
+    background: url('./pics/octocat.png') no-repeat 0 15px transparent;
+    color: #3B5998;
+}
+/*** TITLE ***/
+.title
+{
+    color: #434141;
+    font-size: 50px;
+    line-height: normal;
+    margin: 0 0 0 50px;
+    padding-bottom: 30px;
+    float: none;
+    font-family: "sketch";
+    list-style-type: none;
+    font-weight:bold;
+}
+/*** FOOTER ***/
+.footer
+{
+    background: url('./pics/footer_bg.png') repeat-x #202223;
+    font-family:sans-serif;
+    font-size: xx-small;
+    color:lightgrey;
+    text-align:center;
+    height: 140px;
+    margin:0px;
+    padding:0px;
+    min-width:100%;
+    max-width:100%;
+    position: relative; 
+    z-index:-1;
+    transform: translate(0px,30px);
+ -ms-transform: translate(0px,30px); /* IE 9 */
+ -webkit-transform: translate(0px,30px); /* Safari and Chrome */
+ -o-transform: translate(0px,30px); /* Opera */
+ -moz-transform: translate(0px,30px); /* Firefox */
+}
