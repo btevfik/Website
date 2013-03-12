@@ -233,6 +233,29 @@ body
     background: url('./pics/octocat.png') no-repeat 0 15px transparent;
     color: #3B5998;
 }
+/*** LINKEDIN ***/
+.in 
+{
+   display:inline-block;
+   margin-top:30px;
+   margin-left:30px;
+   margin-bottom:40px;
+}
+.in a{
+   background: url('./pics/in.png') no-repeat 0 0 transparent;
+   border: none;
+   text-decoration: none;
+   padding:12px 0 12px 50px;
+}
+.in a:hover 
+{
+	transition: background 1s;
+	-moz-transition: background 1s; /* Firefox 4 */
+	-webkit-transition: background 1s; /* Safari and Chrome */
+	-o-transition: background 1s; /* Opera */
+    background: url('./pics/in.png') no-repeat 0 15px transparent;
+    color: #3B5998;
+}
 /*** TITLE ***/
 .title
 {
